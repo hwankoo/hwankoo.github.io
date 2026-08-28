@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>치과용 임플란트 상부구조물(어버트먼트) 허가 동향 · 의료기기 인허가 인사이트</title>
+<meta name="description" content="어버트먼트 품목의 허가 추이와 주요 업체를 정리한 리포트입니다."><style>
+  :root{--ink:#16202e;--muted:#6b7480;--line:#e2e6ec;--accent:#1F3864;--bg:#fff;--soft:#f6f8fb}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",sans-serif;
+       line-height:1.7;font-size:16px}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--line);padding:26px 0;margin-bottom:34px}
+  header .t{font-size:19px;font-weight:700;color:var(--accent);text-decoration:none}
+  header .s{color:var(--muted);font-size:13px;margin-top:3px}
+  h1{font-size:29px;line-height:1.35;margin:0 0 10px}
+  h2{font-size:20px;margin:44px 0 14px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+  .lede{color:var(--muted);font-size:15px;margin-bottom:30px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:24px 0}
+  .kpi{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:14px}
+  .kpi .n{font-size:23px;font-weight:700;color:var(--accent)}
+  .kpi .l{font-size:12px;color:var(--muted);margin-top:2px}
+  figure{margin:22px 0}
+  figure img{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;background:#fff}
+  figcaption{font-size:12.5px;color:var(--muted);margin-top:7px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:14px}
+  th,td{border-bottom:1px solid var(--line);padding:8px 9px;text-align:left;vertical-align:top}
+  th{background:var(--soft);font-weight:600;white-space:nowrap}
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .dl a{display:inline-block;margin-right:10px;font-size:13.5px;color:var(--accent)}
+  .note{background:var(--soft);border-left:3px solid var(--accent);padding:12px 15px;
+        font-size:13.5px;color:var(--muted);border-radius:0 6px 6px 0;margin:20px 0}
+  footer{margin:56px 0 40px;padding-top:18px;border-top:1px solid var(--line);
+         font-size:12.5px;color:var(--muted)}
+  a{color:var(--accent)}
+  ul.cards{list-style:none;padding:0}
+  ul.cards li{border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin-bottom:12px}
+  ul.cards a{font-size:17px;font-weight:600;text-decoration:none}
+  ul.cards p{margin:5px 0 0;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="t" href="/">의료기기 인허가 인사이트</a>
+  <div class="s">MFDS 품목허가 공개데이터 기반 정기 분석</div>
+</div></header>
+<main class="wrap"><h1>치과용 임플란트 상부구조물(어버트먼트) 허가 동향</h1>
+<p class="lede">어버트먼트 품목의 허가 추이와 주요 업체를 정리한 리포트입니다.</p>
+
+<div class="kpis">
+  <div class="kpi"><div class="n">1,699</div><div class="l">총 허가 건수</div></div>
+  <div class="kpi"><div class="n">188</div><div class="l">허가 보유 업체 수</div></div>
+  <div class="kpi"><div class="n">2024</div><div class="l">최다 허가 연도 (135건)</div></div>
+  <div class="kpi"><div class="n">14.5%</div><div class="l">상위 3개사 점유</div></div>
+</div>
+
+<h2>연도별 허가 추이</h2>
+<figure><img src="yearly_trend.svg" alt="연도별 허가 건수 막대그래프">
+<figcaption>1998~2026년 허가 건수. 취소·취하 이력이 반영된 시점 기준입니다.</figcaption></figure>
+
+<h2>품목 상태</h2>
+<figure><img src="status_mix.svg" alt="품목 상태 분포 원그래프">
+<figcaption>취소·취하 이력이 있는 품목의 비중입니다.</figcaption></figure>
+
+
+
+<h2>업체별 허가 현황</h2>
+<figure><img src="top_companies.svg" alt="업체별 허가 건수 가로 막대그래프"></figure>
+
+<h2>허가 목록</h2>
+<p class="note">전체 1,699건 중 최신 200건을 표시합니다. 전체 데이터는 아래에서 내려받으십시오.</p>
+<div class="dl">
+  <a href="dental-abutment.csv" download>CSV 내려받기</a>
+  <a href="dental-abutment.json" download>JSON 내려받기</a>
+</div>
+<div class="scroll">
+<table>
+  <thead><tr><th>품목명</th><th>업체명</th><th>허가번호</th><th>허가일자</th><th>제조수입구분</th><th>품목상태</th><th>허가신고구분코드</th><th>추적관리대상</th><th>제조원</th><th>취소취하일자</th></tr></thead>
+  <tbody>
+    <tr><td>치과용 임플란트 상부구조물</td><td>라인C</td><td>제인 26-4781 호</td><td>20260824</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메디덴</td><td>제인 26-4763 호</td><td>20260820</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>(주)허브바이오텍</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>스트라우만덴탈코리아(주)</td><td>수인 26-4534 호</td><td>20260805</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>Straumann Villeret SA</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>제이에이치코어텍</td><td>제인 26-4720 호</td><td>20260804</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)제로스</td><td>제인 26-4715 호</td><td>20260803</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)제로스</td><td>제인 26-4714 호</td><td>20260803</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 이프로스</td><td>제인 26-4692 호</td><td>20260727</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메가젠임플란트</td><td>제인 26-4689 호</td><td>20260727</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메가젠임플란트</td><td>제인 26-4684 호</td><td>20260724</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)바이오템</td><td>제인 26-4681 호</td><td>20260723</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)하스</td><td>제인 26-4645 호</td><td>20260714</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사심다</td><td>제인 26-4631 호</td><td>20260709</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티움광교공장</td><td>제인 26-4630 호</td><td>20260709</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>(주)덴티움광교공장</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)시지메드텍</td><td>제인 26-4620 호</td><td>20260708</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)아침해의료기</td><td>제인 26-4618 호</td><td>20260708</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)아침해의료기</td><td>제인 26-4617 호</td><td>20260708</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)넥서스임플란트(Nexus Implant corp.)</td><td>제인 26-4616 호</td><td>20260708</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)지온</td><td>제인 26-4580 호</td><td>20260626</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)케이제이메디텍</td><td>제인 26-4569 호</td><td>20260623</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티움광교공장</td><td>제인 26-4568 호</td><td>20260623</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>(주)덴티움광교공장</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)네오바이오텍</td><td>제인 26-4566 호</td><td>20260623</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메가젠임플란트</td><td>제인 26-4554 호</td><td>20260622</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)스누콘</td><td>제인 26-4536 호</td><td>20260618</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)네오바이오텍</td><td>제인 26-4517 호</td><td>20260615</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)지온</td><td>제인 26-4522 호</td><td>20260615</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)심온</td><td>제인 26-4518 호</td><td>20260615</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>삼원디엠피</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코웰메디</td><td>제인 26-4512 호</td><td>20260612</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)지오메디</td><td>제인 26-4501 호</td><td>20260609</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코비젼</td><td>제인 26-4481 호</td><td>20260529</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)에비던스임플란트</td><td>제인 26-4457 호</td><td>20260522</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>이젠임플란트(주)</td><td>제인 26-4453 호</td><td>20260521</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코웰메디</td><td>제인 26-4452 호</td><td>20260521</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)아침해의료기</td><td>제인 26-4435 호</td><td>20260515</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티움광교공장</td><td>제인 26-4427 호</td><td>20260513</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>(주)덴티움광교공장</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>이젠임플란트(주)</td><td>제인 26-4416 호</td><td>20260511</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디오</td><td>제인 26-4421 호</td><td>20260511</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)지온</td><td>제인 26-4414 호</td><td>20260508</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코웰메디</td><td>제인 26-4405 호</td><td>20260507</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 도이프</td><td>제인 26-4399 호</td><td>20260506</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)시지메드텍</td><td>제인 26-4392 호</td><td>20260504</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디오</td><td>제인 26-4385 호</td><td>20260429</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디오</td><td>제인 26-4383 호</td><td>20260429</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>이젠임플란트(주)</td><td>제인 26-4367 호</td><td>20260427</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 인비멘드</td><td>제인 26-4346 호</td><td>20260421</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>인비오스</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)바이오템</td><td>제인 26-4342 호</td><td>20260420</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>에이덴 주식회사</td><td>제인 26-4304 호</td><td>20260406</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코웰메디</td><td>제인 26-4298 호</td><td>20260402</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디오</td><td>제인 26-4286 호</td><td>20260330</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)스누콘</td><td>제인 26-4236 호</td><td>20260313</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>에프앤비테크놀로지(주)</td><td>제인 26-4208 호</td><td>20260310</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코비젼</td><td>제인 26-4206 호</td><td>20260309</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)신흥엠에스티</td><td>제인 26-4197 호</td><td>20260306</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)신흥엠에스티</td><td>제인 26-4196 호</td><td>20260306</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>매직플란트</td><td>제인 26-4184 호</td><td>20260227</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)케이제이메디텍</td><td>제인 26-4175 호</td><td>20260226</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)케이제이메디텍</td><td>제인 26-4176 호</td><td>20260226</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>이젠임플란트(주)</td><td>제인 26-4164 호</td><td>20260224</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 도이프</td><td>제인 26-4136 호</td><td>20260211</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)케이제이메디텍</td><td>제인 26-4132 호</td><td>20260209</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 에이아이</td><td>제인 26-4124 호</td><td>20260206</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>나노덴</td><td>제인 26-4087 호</td><td>20260128</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)신흥엠에스티</td><td>제인 26-4086 호</td><td>20260128</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)시지메드텍</td><td>제인 26-4078 호</td><td>20260126</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>덴츠플라이시로나코리아(유)</td><td>수인 26-4057 호</td><td>20260115</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>Dentsply IH AB</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>덴츠플라이시로나코리아(유)</td><td>수인 26-4054 호</td><td>20260114</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>Dentsply IH AB</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>덴츠플라이시로나코리아(유)</td><td>수인 26-4037 호</td><td>20260112</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>DENTSPLY Implants Manufacturing GmbH</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 델콘</td><td>제인 26-4024 호</td><td>20260108</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)한국치과임플란트연구소(KDI)</td><td>제인 26-4017 호</td><td>20260107</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)한국치과임플란트연구소(KDI)</td><td>제인 26-4012 호</td><td>20260106</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>이디에스</td><td>제인 25-5205 호</td><td>20251229</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)에비던스임플란트</td><td>제인 25-5199 호</td><td>20251226</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5193 호</td><td>20251224</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>덴츠플라이시로나코리아(유)</td><td>수인 25-4743 호</td><td>20251223</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>Dentsply IH AB</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)케이제이메디텍</td><td>제인 25-5176 호</td><td>20251219</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>오스템임플란트(주)</td><td>제인 25-5167 호</td><td>20251216</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5157 호</td><td>20251212</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)한국치과임플란트연구소(KDI)</td><td>제인 25-5139 호</td><td>20251208</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>오스템임플란트(주)</td><td>제인 25-5114 호</td><td>20251128</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5112 호</td><td>20251127</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5111 호</td><td>20251127</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)한국치과임플란트연구소(KDI)</td><td>제인 25-5103 호</td><td>20251126</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5093 호</td><td>20251124</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메디덴</td><td>제인 25-5092 호</td><td>20251124</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5073 호</td><td>20251119</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5065 호</td><td>20251117</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5062 호</td><td>20251117</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5061 호</td><td>20251117</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5060 호</td><td>20251117</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5059 호</td><td>20251117</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5058 호</td><td>20251117</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5057 호</td><td>20251117</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-5066 호</td><td>20251117</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)한국치과임플란트연구소(KDI)</td><td>제인 25-5042 호</td><td>20251111</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>오스템임플란트(주)</td><td>제인 25-5037 호</td><td>20251107</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)지온</td><td>제인 25-5032 호</td><td>20251107</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 에이아이</td><td>제인 25-5008 호</td><td>20251030</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>오스템임플란트(주)</td><td>제인 25-4964 호</td><td>20251020</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>이젠임플란트(주)</td><td>제인 25-4947 호</td><td>20251015</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)아이디스</td><td>제인 25-4942 호</td><td>20251013</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 연아시스템</td><td>제인 25-4941 호</td><td>20251013</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메가젠임플란트</td><td>제인 25-4935 호</td><td>20251010</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)하이니스</td><td>제인 25-4920 호</td><td>20251001</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)트루어버트먼트코리아</td><td>제인 25-4875 호</td><td>20250916</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 델콘</td><td>제인 25-4872 호</td><td>20250915</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코비젼</td><td>제인 25-4835 호</td><td>20250905</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디오</td><td>제인 25-4815 호</td><td>20250902</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>포인트임플란트(주) 부산지점</td><td>제인 25-4776 호</td><td>20250820</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코비젼</td><td>제인 25-4767 호</td><td>20250819</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)티스트롱</td><td>제인 25-4757 호</td><td>20250813</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)티스트롱</td><td>제인 25-4735 호</td><td>20250808</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>코리덴트</td><td>제인 25-4728 호</td><td>20250807</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디오</td><td>제인 25-4719 호</td><td>20250806</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)티스트롱</td><td>제인 25-4715 호</td><td>20250805</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사덴큐</td><td>제인 25-4702 호</td><td>20250801</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)하이니스</td><td>제인 25-4674 호</td><td>20250729</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>덴츠플라이시로나코리아(유)</td><td>수인 25-4389 호</td><td>20250714</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>Zest Anchors LLC</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사덴큐</td><td>제인 25-4601 호</td><td>20250707</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사덴큐</td><td>제인 25-4600 호</td><td>20250707</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사덴큐</td><td>제인 25-4530 호</td><td>20250618</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사덴큐</td><td>제인 25-4532 호</td><td>20250618</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사덴큐</td><td>제인 25-4531 호</td><td>20250618</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)에비던스임플란트</td><td>제인 25-4520 호</td><td>20250616</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)심온</td><td>제인 25-4492 호</td><td>20250609</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>삼원디엠피</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 쓰리포인트덴탈</td><td>제인 25-4497 호</td><td>20250609</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)신흥엠에스티</td><td>제인 25-4488 호</td><td>20250605</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)신흥엠에스티</td><td>제인 25-4489 호</td><td>20250605</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)신흥엠에스티</td><td>제인 25-4487 호</td><td>20250605</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)아름덴티스트리</td><td>제인 25-4473 호</td><td>20250529</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메디덴</td><td>제인 25-4451 호</td><td>20250526</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메디덴</td><td>제인 25-4450 호</td><td>20250526</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사쿠보텍</td><td>제인 25-4449 호</td><td>20250526</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-4433 호</td><td>20250521</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 이프로스</td><td>제인 25-4395 호</td><td>20250509</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메디덴</td><td>제인 25-4387 호</td><td>20250508</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 비투랩</td><td>제인 25-4383 호</td><td>20250508</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메디덴</td><td>제인 25-4384 호</td><td>20250508</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메디덴</td><td>제인 25-4386 호</td><td>20250508</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)신흥엠에스티</td><td>제인 25-4347 호</td><td>20250428</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메디덴</td><td>제인 25-4358 호</td><td>20250428</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)에프오엑스덴</td><td>제인 25-4315 호</td><td>20250416</td><td>제조</td><td>취소·취하</td><td>4</td><td>비대상</td><td>(주)델콘</td><td>2026-04-13</td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코웰메디</td><td>제인 25-4308 호</td><td>20250414</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)신흥엠에스티</td><td>제인 25-4307 호</td><td>20250414</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-4290 호</td><td>20250407</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴플렉스</td><td>제인 25-4282 호</td><td>20250404</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>(주)아이디스</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)원데이바이오텍</td><td>제인 25-4264 호</td><td>20250401</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코웰메디</td><td>제인 25-4241 호</td><td>20250326</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)네오바이오텍</td><td>제인 25-4199 호</td><td>20250314</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코웰메디</td><td>제인 25-4201 호</td><td>20250314</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 이프로스</td><td>제인 25-4200 호</td><td>20250314</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 비투랩</td><td>제인 25-4165 호</td><td>20250305</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)케이제이메디텍</td><td>제인 25-4167 호</td><td>20250305</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)허브바이오텍</td><td>제인 25-4168 호</td><td>20250305</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)허브바이오텍</td><td>제인 25-4171 호</td><td>20250305</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)허브바이오텍</td><td>제인 25-4170 호</td><td>20250305</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)네오바이오텍</td><td>제인 25-4146 호</td><td>20250220</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>라빛바이오(주)</td><td>제인 25-4148 호</td><td>20250220</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)덴티스</td><td>제인 25-4105 호</td><td>20250206</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)시지메드텍</td><td>제인 25-4100 호</td><td>20250205</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 이프로스</td><td>제인 25-4099 호</td><td>20250205</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)원데이바이오텍</td><td>제인 25-4075 호</td><td>20250121</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)제로스</td><td>제인 25-4049 호</td><td>20250113</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메가젠임플란트</td><td>제인 25-4016 호</td><td>20250107</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>Medealis GmbH</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>나노덴</td><td>제인 25-4015 호</td><td>20250107</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)바이오템</td><td>제인 25-4004 호</td><td>20250103</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)바이오템</td><td>제인 25-4007 호</td><td>20250103</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)바이오템</td><td>제인 25-4005 호</td><td>20250103</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)바이오템</td><td>제인 25-4008 호</td><td>20250103</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)바이오템</td><td>제인 25-4009 호</td><td>20250103</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)바이오템</td><td>제인 25-4006 호</td><td>20250103</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)신흥</td><td>수인 24-691 호</td><td>20241223</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>Rhein 83 S.r.l.</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디오</td><td>제인 24-1137 호</td><td>20241212</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>스트라우만덴탈코리아(주)</td><td>수인 24-665 호</td><td>20241211</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>JJGC Industria e Comercio de Materiais Dentarios SA</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>스트라우만덴탈코리아(주)</td><td>수인 24-664 호</td><td>20241211</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>JJGC Industria e Comercio de Materiais Dentarios SA</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 델콘</td><td>제인 24-1108 호</td><td>20241205</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>오스템임플란트(주)</td><td>제인 24-1089 호</td><td>20241202</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>버니버니</td><td>제인 24-1078 호</td><td>20241127</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)하스</td><td>제인 24-1064 호</td><td>20241125</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>시에스엠임플란트</td><td>제인 24-1024 호</td><td>20241114</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td>Dongguan Xinlonghong  Hardware Co., Ltd.</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 에이치티케이</td><td>제인 24-1016 호</td><td>20241112</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 에이치티케이</td><td>제인 24-1015 호</td><td>20241112</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코비젼</td><td>제인 24-1013 호</td><td>20241111</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)엠비에이바이오텍</td><td>제인 24-1012 호</td><td>20241111</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>스트라우만덴탈코리아(주)</td><td>수인 24-586 호</td><td>20241107</td><td>수입</td><td>정상</td><td>4</td><td>비대상</td><td>Straumann Villeret SA</td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사 에이치티케이</td><td>제인 24-1002 호</td><td>20241107</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>주식회사심다</td><td>제인 24-1001 호</td><td>20241107</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>이젠임플란트(주)</td><td>제인 24-995 호</td><td>20241105</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)워랜텍</td><td>제인 24-990 호</td><td>20241105</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코비젼</td><td>제인 24-969 호</td><td>20241028</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코비젼</td><td>제인 24-958 호</td><td>20241023</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>나노덴</td><td>제인 24-936 호</td><td>20241015</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디오</td><td>제인 24-925 호</td><td>20241010</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디오</td><td>제인 24-892 호</td><td>20240926</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>오스템임플란트(주)</td><td>제인 24-883 호</td><td>20240925</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주) 메타약품</td><td>제인 24-884 호</td><td>20240925</td><td>제조</td><td>취소·취하</td><td>4</td><td>비대상</td><td>이젠임플란트(주)</td><td>2025-07-30</td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)허브바이오텍</td><td>제인 24-864 호</td><td>20240920</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용임플란트상부구조물</td><td>제이에이치코어텍</td><td>제인 24-865 호</td><td>20240920</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)메가젠임플란트</td><td>제인 24-863 호</td><td>20240920</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)디에이치</td><td>제인 24-856 호</td><td>20240919</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)코비젼</td><td>제인 24-853 호</td><td>20240913</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+    <tr><td>치과용 임플란트 상부구조물</td><td>(주)허브바이오텍</td><td>제인 24-845 호</td><td>20240910</td><td>제조</td><td>정상</td><td>4</td><td>비대상</td><td></td><td></td></tr>
+  </tbody>
+</table>
+</div>
+</main>
+<footer><div class="wrap">
+  <p>출처: 식품의약품안전처 「의료기기 품목허가 정보」 (공공데이터포털 data.go.kr)</p>
+  <p>본 자료는 공개된 허가 정보를 재가공한 참고 자료이며, 법적 효력이 있는 규제 해석이 아닙니다.
+     실제 인허가 판단은 원문 및 소관 기관 확인이 필요합니다.</p>
+  <p>생성 2026-08-28 11:37</p>
+</div></footer>
+</body>
+</html>
